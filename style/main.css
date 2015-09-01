@@ -1,0 +1,165 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,100,700);
+a:link {
+    text-decoration: none;
+    color: #ee0a94;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #ee0a94 !important;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #ee0a94;
+}
+
+video#bgvid {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url(../video/clouds.mp4) no-repeat;
+    background-size: cover;
+}
+
+#mask {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -99;
+    background-size: cover;
+    background-color: white;
+    opacity: 0.8;
+}
+
+.jumbotron {
+    z-index: 1;
+    font-family: Raleway;
+    font-size: 21px;
+    font-weight: 100;
+    height: 300px;
+    margin: auto !important;
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    bottom: 0 !important;
+    right: 0 !important;
+    color: grey;
+    text-align: center;
+    background-color: transparent;
+    text-transform: uppercase;
+}
+
+.jumbotron span {
+    display: none;
+    text-transform: none;
+    vertical-align: middle;
+}
+/* SOCIAL BAR */
+
+#social-label {
+    font-family: Raleway;
+    font-weight: 100;
+    font-size: 14px;
+    top: 59px;
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    left: -24px;
+    position: absolute;
+    background-color: gray;
+    color: white;
+    height: 40px;
+    width: auto;
+    transform: rotate(-90deg);
+    opacity: 0.8;
+    -webkit-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+#social-icons {
+    font-family: Raleway;
+    font-weight: 100;
+    top: 35px;
+    text-transform: uppercase;
+    left: -70px;
+    position: absolute;
+    background-color: white;
+    color: white;
+    height: auto;
+    width: 70px;
+    -webkit-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+    z-index: 98;
+}
+
+.social-icon {
+    list-style-type: none;
+    height: 70px;
+    width: 70px;
+}
+
+.social-icon:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.facebook {
+    background: url(http://kennyliau.com/portfolio/LogoLoading/img/facebook.png) no-repeat;
+    background-size: cover;
+}
+
+.twitter {
+    background: url(https://storm.apache.org/images/logos/twitter.png) no-repeat;
+    background-size: cover;
+    background-color: white;
+}
+
+.instagram {
+    background: url(http://www.orpheusnyc.com/images/Icons/instagram%20icon.png) no-repeat;
+    background-size: cover;
+}
+
+.linkedin {
+    background: url(http://tyt.wpengine.netdna-cdn.com/wp-content/uploads/flat-256-LinkedIn.png) no-repeat;
+    background-size: cover;
+}
+
+.gmail {
+    background: url(http://pingrid.com/media/common/Icons/gmail-icon.png) no-repeat;
+    background-size: cover;
+}
+/* end SOCIAL BAR */
+
+.glyphicon {
+    font-size: 30px;
+}
+
+#gmail {
+    font-size: 16px;
+}
+
+.default {
+    text-transform: uppercase;
+    font-size: 16px;
+    background-color: transparent;
+    border: solid 1px white;
+    padding: 10px;
+}
+
+.default:hover {
+    color: gray !important;
+}
