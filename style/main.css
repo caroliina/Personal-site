@@ -1,7 +1,9 @@
 @import url(http://fonts.googleapis.com/css?family=Raleway:400,100,700);
+
 a:link {
     text-decoration: none;
     color: #ee0a94;
+    font-weight: bolder;
 }
 
 a:hover {
@@ -55,7 +57,7 @@ video#bgvid {
     left: 0 !important;
     bottom: 0 !important;
     right: 0 !important;
-    color: grey;
+    color: gray;
     text-align: center;
     background-color: transparent;
     text-transform: uppercase;
@@ -66,13 +68,13 @@ video#bgvid {
     text-transform: none;
     vertical-align: middle;
 }
-/* SOCIAL BAR */
 
+/* SOCIAL BAR */
 #social-label {
     font-family: Raleway;
     font-weight: 100;
     font-size: 14px;
-    top: 59px;
+    top: 58px;
     padding: 10px;
     text-align: center;
     text-transform: uppercase;
@@ -118,18 +120,18 @@ video#bgvid {
 }
 
 .facebook {
-    background: url(http://kennyliau.com/portfolio/LogoLoading/img/facebook.png) no-repeat;
+    background: url(http://www.itatennis.com/Assets/Facebook+Logo.png) no-repeat;
     background-size: cover;
 }
 
 .twitter {
-    background: url(https://storm.apache.org/images/logos/twitter.png) no-repeat;
+    background: url(http://chicagonorthwest.com/wp-content/uploads/2015/08/TwitterLogo_55acee-background.png) no-repeat;
     background-size: cover;
     background-color: white;
 }
 
 .instagram {
-    background: url(http://www.orpheusnyc.com/images/Icons/instagram%20icon.png) no-repeat;
+    background: url(http://brandchannel.com/wp-content/uploads/2016/05/instagram-new-logo-may-2016.jpg) no-repeat;
     background-size: cover;
 }
 
@@ -146,10 +148,6 @@ video#bgvid {
 
 .glyphicon {
     font-size: 30px;
-}
-
-#gmail {
-    font-size: 16px;
 }
 
 .default {
